@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+body {
+    font: 12px/1.5 Microsoft YaHei,tahoma,\\5B8B\4F53,sans-serif;
+    color: #717171;
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+}
+div {
+    display: block;
+}
+form {
+    display: block;
+    margin-top: 0em;
+
+}
+label {
+    cursor: default;
+}
+input {
+    
+    background-color: white;
+
+    
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+
+}
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-size: 100%;
+}
+
+
+.security-right {
+
+    width: 1000px;
+    border: 1px solid #ddd;
+    background: #fff;
+    min-height: 640px!important;
+    margin: 0 auto;
+}
+.security-right-title{
+    height: 50px;
+    padding-left: 30px;
+    border-bottom: 1px solid #dddddd;
+}
+.security-right-title-icon{
+    float: left;
+    width: 4px;
+    height: 16px;
+    margin-top:18px ;
+    background-color: #00a1d6;
+    border-radius: 4px;
+}
+.security-right-title-test{
+    float: left;
+    margin: 15px 0 0 5px;
+    color: #00a1d6;
+    font-size: 14px;
+    cursor: default;
+}
+
+.user-setting-warp {
+    padding: 20px 20px 0;
+    position: relative;
+
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.el-form-item__label {
+    width: 95px;
+    text-align: right;
+    margin-right: 10px;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #48576a;
+    padding: 11px 12px 11px 0;
+    box-sizing: border-box;
+}
+.el-form-item__content {
+    line-height: 36px;
+    position: relative;
+    font-size: 14px;
+}
+
+.el-input {
+    position: relative;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.el-input__inner {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #bfcbd9;
+    box-sizing: border-box;
+    color: #1f2d3d;
+    font-size: inherit;
+    height: 36px;
+    line-height: 1;
+    outline: 0;
+    padding: 3px 10px;
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+}
+.el-input, .el-input__inner {
+    width: 100%;
+    display: inline-block;
+}
+
+.user-nick-name .el-input, .user-nick-name .el-input__inner {
+    float: left;
+    width: 225px;
+    height: 40px;
+    margin-right: 120px;
+}
+.user-nick-name .el-input{
+    height: 50px;
+    margin-bottom: 30px;
+}
+.user-nick-name1 .el-input, .user-nick-name1 .el-input__inner {
+    float: left;
+    width: 225px;
+    height: 40px;
+    margin-right: 120px;
+}
+.user-nick-name1 .el-input{
+    height: 50px;
+    margin-bottom: 30px;
+}
+.user-nick-name2 .el-input, .user-nick-name2 .el-input__inner {
+    float: left;
+    width: 225px;
+    height: 40px;
+    margin-right: 120px;
+}
+.user-nick-name2 .el-input{
+    height: 50px;
+    margin-bottom: 40px;
+}
+.user-nick-name3 .el-input, .user-nick-name3 .el-input__inner {
+    float: left;
+    width: 225px;
+    height: 40px;
+    margin-right: 300px;
+}
+.user-nick-name3 .el-input__inner {
+    height:80px;
+    width:500px;
+}
+.user-nick-name3 .el-input{
+    height: 50px;
+    margin-bottom: 120px;
+}
+
+.user-nick-name4 .el-input1, .user-nick-name4 .el-input__inner1 {
+    float: left;
+    width: 225px;
+    height: 40px;
+    margin-right:140px;
+    margin-left: 140px;
+}
+.user-nick-name4 .el-input__inner1 {
+	background-color: #00a1d6;
+	border-radius: 6px;
+	cursor:hand;
+}
